@@ -1,0 +1,38 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="48" x2="432" y2="464" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5B4BFF"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="card" x1="156" y1="108" x2="356" y2="392" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="182" y1="156" x2="332" y2="332" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="52" fill="url(#bg)"/>
+
+  <circle cx="418" cy="108" r="62" fill="#FFFFFF" fill-opacity="0.10"/>
+  <circle cx="104" cy="420" r="78" fill="#FFFFFF" fill-opacity="0.08"/>
+  <circle cx="430" cy="416" r="48" fill="#FFFFFF" fill-opacity="0.08"/>
+
+  <rect x="112" y="92" width="288" height="328" rx="46" fill="url(#card)"/>
+
+  <rect x="154" y="132" width="204" height="42" rx="21" fill="#E0E7FF"/>
+  <text x="256" y="160" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#4F46E5" letter-spacing="2">CONSULTORIA</text>
+
+  <circle cx="256" cy="256" r="102" stroke="url(#accent)" stroke-width="22" stroke-linecap="round"/>
+  <path d="M215 197C188 216 170 240 170 272C170 332 214 372 278 372C309 372 338 360 360 340" stroke="url(#accent)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M296 208L336 208L336 248" stroke="#5B4BFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M336 208L270 274" stroke="#5B4BFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="178" y="340" width="156" height="18" rx="9" fill="#C7D2FE"/>
+  <rect x="178" y="366" width="120" height="18" rx="9" fill="#DDE7FF"/>
+
+  <text x="256" y="420" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#1F2937">Mentoria &amp; Futuro</text>
+</svg>
